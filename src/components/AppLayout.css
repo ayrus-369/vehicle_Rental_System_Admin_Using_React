@@ -1,0 +1,27 @@
+.app-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Set the height of the layout */
+  }
+  
+  .app-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .app-sidebar {
+    width: 200px; /* Set the width of the sidebar */
+    background-color: #f0f0f0; /* Sidebar background color */
+  }
+  
+  /* .app-content {
+    flex: 1;
+    display: flex;
+  
+  } */
+  .app-content {
+    flex-grow: 1;
+    padding: 30px;
+    margin-left: 180px;
+  }
+  

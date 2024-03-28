@@ -1,0 +1,12 @@
+.app-header {
+    position: fixed; /* Fixes the header at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end; /* Aligns logo container to the right */
+    padding: 13px 12px; /* Adjust as needed */
+    background-color: #f8f9fa; /* Example background color */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
+    z-index: 1030; /* Ensures the header is above other content */
+  }
